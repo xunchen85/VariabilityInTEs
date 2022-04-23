@@ -11,3 +11,6 @@ TEPeak_detection.sh shell script was used to detect TE instances that were overl
 TEPeak_shuffle.sh was used to generate the expected distribution of peaks that are overlapped with each TE family.
 These scripts are optimied based on the scripts wrote by Bordan et al. (https://github.com/lubogdan/ImmuneTE) Python scripts were written and used in these shell scripts. 
 
+## R scripts
+R scripts were used for most of the analysis in the article. They can be ran one by one by following the orders. After the running, the scripts will also generate the pdf version of most figures included in the paper.
+
