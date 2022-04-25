@@ -41,9 +41,7 @@ data_summary <- function(data, varname, groupnames){
 
 ####################################
 ####### Set up enviroment;
-setwd(dir="/Users/xchen/OneDrive - Kyoto University/Projects_Bourque/EMC_project_2020_12_1/Final_Rscripts_2022_4_20/")
 TEgroups = c("DNA","LTR","LINE","SINE")
-
 colorsetTE = c("DNA"="#1f78b4","LTR"="#e31a1c","LINE"="#33a02c","SINE"="#ff7f00")
 
 ##################################### read log2FC
