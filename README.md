@@ -12,5 +12,5 @@ TEPeak_shuffle.sh was used to generate the expected distribution of peaks that a
 These scripts are optimied based on the scripts wrote by Bordan et al. (https://github.com/lubogdan/ImmuneTE) Python scripts were written and used in these shell scripts. 
 
 ## R scripts
-R scripts were used for most of the analysis in the article. They can be ran one by one by following the orders. After the running, the scripts will also generate corresponding figures in pdf format.
+R scripts were used for most of the main analyses performed in the article. They can be ran one by one by following the orders. After the running, the scripts will also generate corresponding figures in pdf format.
 
