@@ -10,8 +10,6 @@ library(ggbeeswarm)
 library(splitstackshape)
 library(gridExtra)
 
-setwd(dir="/Users/xchen/OneDrive - Kyoto University/Projects_Bourque/EMC_project_2020_12_1/Final_Rscripts_2022_4_20/")
-
 pValue = 0.001
 pvaluetable<-read.delim("inputs/EMC_RNAseq_hg19.rename.CountM_pairedEnd_test_gene_TE_analysis.txt",sep="",header=T)
 pvaluetable_TE<-pvaluetable[order(pvaluetable$padj),]
