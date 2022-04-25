@@ -97,8 +97,6 @@ my_theme_2_noLegend = theme(panel.grid.major = element_blank(),
                             legend.key = element_rect(fill = NA))
 ###########################
 ####### load files
-setwd(dir="/Users/xchen/OneDrive - Kyoto University/Projects_Bourque/EMC_project_2020_12_1/Final_Rscripts_2022_4_20/")
-
 ## Input
 # TE list
 TElist = read.delim("inputs/TElist.sep.27",header=T,sep="")
