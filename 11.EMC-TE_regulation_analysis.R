@@ -38,7 +38,6 @@ my_theme_1_Legend = theme(panel.grid.major = element_blank(),
 
 ####### Set up enviroment;
 
-setwd(dir="/Users/xchen/OneDrive - Kyoto University/Projects_Bourque/EMC_project_2020_12_1/Final_Rscripts_2022_4_20/")
 TPM = read.csv("inputs/EMC_RNAseq_hg19.rename.CountM-TPM.csv")
 #TPM = read.csv("EMC_RNAseq_hg19.rename.CountM-TPM-gene.csv")
 Dif = read.delim("inputs/EMC_RNAseq_hg19.rename.CountM_pairedEnd_test_gene_TE_analysis.txt",header=T,sep="")
