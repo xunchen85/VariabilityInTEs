@@ -49,7 +49,6 @@ data_summary <- function(data, varname, groupnames){
 ####################################
 ####### Set up enviroment;
 colorset = c("Flu" = "#99000d","NI" = "#4d4d4d")
-setwd(dir="/Users/xchen/OneDrive - Kyoto University/Projects_Bourque/EMC_project_2020_12_1/Final_Rscripts_2022_4_20/")
 
 ####### variables
 my.formula = y~x
