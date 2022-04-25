@@ -40,9 +40,6 @@ data_summary <- function(data, varname, groupnames){
 }
 
 ####################################
-####### Set up enviroment;
-setwd(dir="/Users/xchen/OneDrive - Kyoto University/Projects_Bourque/EMC_project_2020_12_1/Final_Table_2021_1_18/")
-
 ####### variables
 Exclude_columns = 3
 Plus_1 = "no"
