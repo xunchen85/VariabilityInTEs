@@ -19,7 +19,6 @@ library(gtools)
 library(FSA)
 
 ####
-setwd(dir="/Users/xchen/OneDrive - Kyoto University/Projects_Bourque/EMC_project_2020_12_1/Final_Rscripts_2022_4_20/")
 Date_input = "2021_4_2"
 Date = "2022_4_20"
 
