@@ -314,7 +314,7 @@ for (type in types){
           legend.position="none",
           legend.background = element_blank(),
           legend.text=element_text(size=rel(1.2)))
-      pdf(paste("EMC-Figure2DE-",type,"-",enrichedStatus,"-",Date,"-counts",".pdf",sep=""),    # create PNG for the heat map        
+      pdf(paste("EMC-Figure2DF-",type,"-",enrichedStatus,"-",Date,"-counts",".pdf",sep=""),    # create PNG for the heat map        
           width = 4,
           height = 5,
           pointsize = 10)        # smaller font size
