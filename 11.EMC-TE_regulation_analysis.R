@@ -179,13 +179,13 @@ p2 = ggplot(NearbyGenes_plot[grepl("shuffle",NearbyGenes_plot$dataset) & NearbyG
   scale_fill_manual(values=colorSet)+
   my_theme_1_Legend
 
-pdf(paste("EMC-Figure5A_1_2021_12_12",".pdf",sep=""),                      
+pdf(paste("EMC-Figure4A_1_2021_12_12",".pdf",sep=""),                      
     width = 6,
     height = 4.5,
     pointsize = 10)        # smaller font size
 grid.draw(p1)
 dev.off()
-pdf(paste("EMC-Figure5B_2_2021_12_12",".pdf",sep=""),                      
+pdf(paste("EMC-Figure4B_2_2021_12_12",".pdf",sep=""),                      
     width = 6,
     height = 4.5,
     pointsize = 10)        # smaller font size
