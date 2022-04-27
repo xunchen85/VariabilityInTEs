@@ -31,3 +31,13 @@ R scripts were used for most of the main analyses performed in the article. They
 9.EMC-TE_enrichment_analysis.R was used to identified TE families with enhanced/reduced activity (ATAC-seq, various Chip-seq) (Figure 2D, Figure 2E, Figure 2F, Figure2G).
 
 10.EMC-TEfamilies_clustering.R was used for the clustering analysis of TE enrichment levels among 35 flu-infected and non-infected samples separately (Figure 3C, Figure S3B).
+
+11.EMC-TE_regulation_analysis.R was used to study the TE regulation roles of nearby genes (Figure 4A, Figure 4B). 
+
+12.EMC-TE_epigenetic_status.R was used to analyze the epigenetic status of all accessible TEs from 36 families with enhanced accessibility (Figure 4C).
+
+13.Determine_TE_peak_Regions.R was used to detect "TE peak regions" along each consensus sequence.
+
+14.EMC-TE_motif_analysis.R was used for the identification of candidate binding motifs per TE family (Figure 5D, Figure S5C, Figure S6B).
+
+15.EMC-predictive_models.R was used for the development of predictive models for viral load post-infection (Figure 6F, Figure 6H, Figure 6I, Figure 6J, Figure S7B, Figure S7C, Figure S7D, Figure S7E, Figure S7F, Figure S7G, Figure S7I). 
