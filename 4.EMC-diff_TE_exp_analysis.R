@@ -75,6 +75,7 @@ datamatrix <- nbinomWaldTest(datamatrix)
 save(datamatrix,file=paste(inputFile,"datamatrix_normalized",sep="_"))
 tDataNorm <- as.data.frame(counts(datamatrix, normalized=TRUE))
 tDataNorm2 <- data.frame(tDataNorm)
+write.table(tDataNorm2, file=paste(inputFile,"Normalized_PvalueOutput.txt",sep="_"))
 
 ####### differential expression
 res <- results(datamatrix,independentFiltering=F)
