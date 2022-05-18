@@ -43,3 +43,7 @@ R scripts were used for most of the main analyses performed in the article. They
 •	*14.EMC-TE_motif_analysis.R*: identification of candidate binding motifs per TE family (Figure 5D, Figure S5C, Figure S6B).
 
 •	*15.EMC-predictive_models.R*: develop predictive models for viral load post-infection (Figure 6F, Figure 6H, Figure 6I, Figure 6J, Figure S7B, Figure S7C, Figure S7D, Figure S7E, Figure S7F, Figure S7G, Figure S7I). 
+
+## 5) Citation
+Xun Chen, Alain Sarabia Pacis, Katherine A Aracena, Saideep Gona, Tony Kwan, Cristian Groza, Yen Lung Lin, Renata Helena Monteiro Sindeaux, Vania Yotova, Albena Pramatarova, Marie-Michelle Simon, Tomi M. Pastinen, Luis Barreiro, Guillaume Bourque: Transposable elements are associated with the variable response to influenza infection. bioRxiv 2022.05.10.491101; doi: https://doi.org/10.1101/2022.05.10.491101
+
