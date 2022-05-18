@@ -13,9 +13,9 @@ The two shell scripts were optimized based on the scripts written by Bordan et a
 >•	*2.TEPeak_shuffle.sh*: generate the expected distribution of peaks that are overlapped with each TE family.<br />
 
 Python scripts were written and used in these shell scripts. 
->*Convert_to_PeakSummit.py*: convert the peak regions to the peak summits in BED format. 
+>•	*Convert_to_PeakSummit.py*: convert the peak regions to the peak summits in BED format. 
 
->*Combined_TEenrichmentByTEfamily.py*: organize the number of actual/shuffled peaks-associated instances per TE family. 
+>•	*Combined_TEenrichmentByTEfamily.py*: organize the number of actual/shuffled peaks-associated instances per TE family. 
 
 ## * R scripts
 R scripts were used for most of the main analyses performed in the article. They can be ran one by one by following the orders. After the running, the scripts will also generate corresponding figures in pdf format.
