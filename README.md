@@ -18,9 +18,9 @@ Python scripts were written and used in these shell scripts. *Convert_to_PeakSum
 ## 4) R scripts
 R scripts were used for most of the main analyses performed in the article. They can be ran one by one by following the orders. After the running, the scripts will also generate corresponding figures in pdf format.
 
-•	*3.EMC-PCA_analysis.R*: PCA analysis of TE and gene expression among individuals (Figure 1A).
+-•	*3.EMC-PCA_analysis.R*: PCA analysis of TE and gene expression among individuals (Figure 1A).
 
-•	*4.EMC-diff_TE_exp_analysis.R*: differential gene/TE expression analysis between flu infected and non-infected samples. DESeq2 was used for the analysis.
+-•	*4.EMC-diff_TE_exp_analysis.R*: differential gene/TE expression analysis between flu infected and non-infected samples. DESeq2 was used for the analysis.
 
 •	*5.EMC-diff_TE_exp_analysis_2.R*: prepare the vacano plot of TE differential expression results. The script will also plot the proportion of TE families per subclass that are up-/down-regulated upon influenza infection (Figure 1C).
 
@@ -45,5 +45,5 @@ R scripts were used for most of the main analyses performed in the article. They
 •	*15.EMC-predictive_models.R*: develop predictive models for viral load post-infection (Figure 6F, Figure 6H, Figure 6I, Figure 6J, Figure S7B, Figure S7C, Figure S7D, Figure S7E, Figure S7F, Figure S7G, Figure S7I). 
 
 ## 5) Citation
-Xun Chen, Alain Sarabia Pacis, Katherine A Aracena, Saideep Gona, Tony Kwan, Cristian Groza, Yen Lung Lin, Renata Helena Monteiro Sindeaux, Vania Yotova, Albena Pramatarova, Marie-Michelle Simon, Tomi M. Pastinen, Luis Barreiro, Guillaume Bourque: Transposable elements are associated with the variable response to influenza infection. bioRxiv 2022.05.10.491101; doi: https://doi.org/10.1101/2022.05.10.491101
+Xun Chen, Alain Sarabia Pacis, Katherine A Aracena, Saideep Gona, Tony Kwan, Cristian Groza, Yen Lung Lin, Renata Helena Monteiro Sindeaux, Vania Yotova, Albena Pramatarova, Marie-Michelle Simon, Tomi M. Pastinen, Luis Barreiro, Guillaume Bourque: **Transposable elements are associated with the variable response to influenza infection**. bioRxiv 2022.05.10.491101; doi: https://doi.org/10.1101/2022.05.10.491101
 
