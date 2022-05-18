@@ -1,12 +1,12 @@
 # Variability_In_TEs
 
-## 1. Introduction
+## 1) Introduction
 Scripts included in this repository were used for the main analyses in the article of "Transposable elements are associated with the variable response to influenza infection" (bioRxiv, doi: https://doi.org/10.1101/2022.05.10.491101).
 
-## 2. inputs
+## 2) inputs
 Files under this "inputs" folder were used as the inputs for the R scripts. Zipped files should be unzipped before the running. Summary.5mC.enriched.table and Summary.expAndCentroid.enriched.table files can be shared upon request. They were not uploaded due to the limitation of file sizes but will be further deposited to Zenodo.
 
-## 3. shell and python scripts
+## 3) shell and python scripts
 1.TEPeak_detection.sh shell script was used to detect TE instances that were overlapped with ATAC-seq or Chip-seq peaks. 
 
 2.TEPeak_shuffle.sh was used to generate the expected distribution of peaks that are overlapped with each TE family.
@@ -15,7 +15,7 @@ The two shell scripts were optimized based on the scripts written by Bordan et a
 
   Python scripts were written and used in these shell scripts. Convert_to_PeakSummit.py was used to convert the peak regions to the peak summits in BED format. Combined_TEenrichmentByTEfamily.py was used to organize the number of actual/shuffled peaks-associated instances per TE family. 
 
-## 4. R scripts
+## 4) R scripts
 R scripts were used for most of the main analyses performed in the article. They can be ran one by one by following the orders. After the running, the scripts will also generate corresponding figures in pdf format.
 
 3.EMC-PCA_analysis.R was used for the PCA analysis of TE and gene expression among individuals (Figure 1A).
