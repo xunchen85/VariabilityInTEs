@@ -1,7 +1,7 @@
 # Variability_In_TEs
 
 ## Introduction
-Scripts included in this repository were used for the main analyses in the article of "Transposable elements are associated with the variable response to influenza infection" (In submission).
+Scripts included in this repository were used for the main analyses in the article of "Transposable elements are associated with the variable response to influenza infection" (bioRxiv, doi: https://doi.org/10.1101/2022.05.10.491101).
 
 ## inputs
 Files under this "inputs" folder were used as the inputs for the R scripts. Zipped files should be unzipped before the running. Summary.5mC.enriched.table and Summary.expAndCentroid.enriched.table files can be shared upon request. They were not uploaded due to the limitation of file sizes but will be further deposited to Zenodo.
