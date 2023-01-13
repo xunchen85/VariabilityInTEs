@@ -1,4 +1,4 @@
-# Variability_In_TEs
+# VariabilityInTEs
 
 ## * Introduction
 Scripts included in this repository were used for the main analyses in the article of "Transposable elements are associated with the variable response to influenza infection" (bioRxiv, doi: https://doi.org/10.1101/2022.05.10.491101).
